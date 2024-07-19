@@ -24,6 +24,23 @@ span {
   animation: fadein 0.2s ease-out;
 }
 
+.toast-success {
+  background-color: #e9f7e7;
+  color: #1a9e2c;
+}
+
+.toast-warning{
+  background-color: #fffaec;
+  color: #e29505;
+}
+
+.toast-error{
+  background-color: #fde7e7;
+  color: #d93025;
+}
+
+
+
 
 .hide {
   animation: fadeout 0.5s ease-out;
