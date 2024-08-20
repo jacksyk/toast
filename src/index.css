@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 
-span {
+#ktoast_root span {
   border-radius: 6px;
   padding: 10px 20px;
   margin: 4px;
@@ -24,17 +24,17 @@ span {
   animation: fadein 0.2s ease-out;
 }
 
-.toast-success {
+#ktoast_root .toast-success {
   background-color: #e9f7e7;
   color: #1a9e2c;
 }
 
-.toast-warning{
+#ktoast_root .toast-warning{
   background-color: #fffaec;
   color: #e29505;
 }
 
-.toast-error{
+#ktoast_root .toast-error{
   background-color: #fde7e7;
   color: #d93025;
 }
@@ -42,7 +42,7 @@ span {
 
 
 
-.hide {
+#ktoast_root .hide {
   animation: fadeout 0.5s ease-out;
 }
 
